@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px:
+}
+.menu-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+.menu nav>ul{
+    list-style: none;
+    /* display: flex; */
+}
+ul li{
+
+    display: inline;
+    margin-left: 20px;
+    
+}
+ul li a{
+    text-decoration: none;
+    padding: 10px 10px;
+    border: 2px solid black;
+}
+ul li a:hover{
+    background-color: brown;
+    color: white;
+    transform: translateY(5px);
+    border-radius: 20px;
+}
