@@ -9,23 +9,38 @@
     padding: 20px;
 }
 .menu nav>ul{
-    list-style: none;
-    /* display: flex; */
+    display: flex;
 }
 ul li{
-
-    display: inline;
+    list-style: none;
+    /* display: inline; */
     margin-left: 20px;
+    padding: 10px ;
+    border: 2px solid blue;
     
 }
 ul li a{
     text-decoration: none;
-    padding: 10px 10px;
-    border: 2px solid black;
+    color: blue;
 }
-ul li a:hover{
-    background-color: brown;
-    color: white;
-    transform: translateY(5px);
+ul li:hover{
+    /* background-color: blueviolet; */
+    color: aqua;
+    border: 2px solid blue;
     border-radius: 20px;
+}
+nav li .dropdown{
+    margin-top: 10px;
+    display: none;
+    position: absolute;
+    padding-right: 15px;
+    padding-left: 0%;
+    /* background-color: beige; */
+    background: transparent;
+    border: 1px solid whitesmoke;
+    backdrop-filter: blur(25px);
+    
+}
+nav li:hover .dropdown{
+    display: block;
 }
